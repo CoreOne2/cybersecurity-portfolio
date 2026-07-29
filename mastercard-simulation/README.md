@@ -37,4 +37,4 @@ Completed a practical cybersecurity job simulation with **Mastercard** via Forag
 ## 📜 Certificate of Completion
 *(To view the certificate image uploaded to this repository, click the link below)*
 
-- [View My Completion Certificate](../Screenshot%202026-07-29%20111809.png)
+- [View My Completion Certificate](mastercard-simulation/Mastercard - job simulation.pdf)
