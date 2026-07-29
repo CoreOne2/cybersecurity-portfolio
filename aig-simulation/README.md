@@ -36,4 +36,4 @@ Completed a practical cybersecurity job simulation with **AIG** via Forage, focu
 ## 📜 Certificate of Completion
 *(To view the certificate image/PDF uploaded to this repository, click the link below)*
 
--  [View My Completion Certificate](./AIG_Cybersecurity_Certificate.pdf?raw=true))
+-  [View My Completion Certificate](https://github.com/CoreOne2/cybersecurity-portfolio/blob/2f71d72752823d1efddaf98eeaf47b0aa794b510/aig-simulation/AIG%20Job%20simulation.png)
