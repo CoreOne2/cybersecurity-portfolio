@@ -3,10 +3,15 @@ A four-layer networking framework that guides how data moves across the internet
 
 The Four Layers of TCP/IP
 
-Application Layer:Interacts directly with user software.Handles high-level protocols like HTTP, FTP, and DNS.
+1.Application Layer:Interacts directly with user software.Handles high-level protocols like HTTP, FTP, and DNS.
 
-Transport Layer:Manages clean end-to-end data delivery between devices.Uses TCP for reliable delivery or UDP for fast delivery.
+2.Transport Layer:Manages clean end-to-end data delivery between devices.Uses TCP for reliable delivery or UDP for fast delivery.
 
-Internet Layer:Handles logical IP addressing.Routes packets across different networks to their final target
+3.Internet Layer:Handles logical IP addressing.Routes packets across different networks to their final target
 
-Network Access Layer:Controls the physical transmission of data.Deals with hardware, cables, and network cards
+4.Network Access Layer:Controls the physical transmission of data.Deals with hardware, cables, and network cards
+
+OSI layers ( Open Systems Interconnection )
+The Open Systems Interconnection (OSI) model is a conceptual 7-layer framework split into the Physical, Data Link, Network, and Transport layers. It describes how data moves between devices on a network.
+
+
