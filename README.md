@@ -12,3 +12,5 @@ Welcome to my cybersecurity learning journey. This repository contains my hands-
 * [🛡️ AIG - Shields Up: Cybersecurity Job Simulation](./aig-simulation)
   * **Focus:** Zero-Day Incident Response & Ransomware Mitigation
   * **Completed:** July 2026
+    
+* [🐍 30 Days of Python Challenge](https://github.com/CoreOne2/python-30-days) - Daily Python scripting & automation practice for cybersecurity.
