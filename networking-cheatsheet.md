@@ -23,5 +23,5 @@ Here are the detail of 7 OSI layers
  Proves identity: Confirms you are talking to the real website server and not a fake one.
  Modern standard: Required by web browsers, which warn users when a site is unsecure
 
- ![Port Diagram](./port.jpg)
+ ![Port Diagram](./port.png)
  
