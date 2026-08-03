@@ -10,4 +10,12 @@ Here are the detail of 7 OSI layers
 ![OSI Model Diagram](./osi.jpg)
 
  HTTP/HTTPS : HTTP and HTTPS are communication protocols used by web browsers and servers to send and receive data, with the main differences being security encryption, default network ports, and browser trust labels
+
+ Port 80 (HTTP)
+ Plain text data: Sends information openly without locks or scrambling.
+ Easy to spy on: Anyone on the same network can read passwords or user data.
+ Current role: Used mostly to catch incoming web requests and redirect users safely to Port 443.
+
+ Port 443 (HTTPS)
+ 
  
