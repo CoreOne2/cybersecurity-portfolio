@@ -8,4 +8,6 @@ OSI layers ( Open Systems Interconnection )
 The Open Systems Interconnection (OSI) model is a conceptual 7-layer framework split into the Physical, Data Link, Network, and Transport layers. It describes how data moves between devices on a network.
 Here are the detail of 7 OSI layers
 ![OSI Model Diagram](./osi.jpg)
+
+ HTTP/HTTPS : HTTP and HTTPS are communication protocols used by web browsers and servers to send and receive data, with the main differences being security encryption, default network ports, and browser trust labels
  
