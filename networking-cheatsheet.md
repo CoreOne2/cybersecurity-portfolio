@@ -17,5 +17,8 @@ Here are the detail of 7 OSI layers
  Current role: Used mostly to catch incoming web requests and redirect users safely to Port 443.
 
  Port 443 (HTTPS)
+ Encrypted data: Scrambles information using SSL/TLS so outsiders cannot read it.
+ Proves identity: Confirms you are talking to the real website server and not a fake one.
+ Modern standard: Required by web browsers, which warn users when a site is unsecure
  
  
