@@ -27,11 +27,4 @@ Here are the detail of 7 OSI layers
 
  DHCP : The Dynamic Host Configuration Protocol (DHCP) automates network setup so you do not have to configure IP addresses manually.
  
- Port 67 (UDP): Server port used to listen for and receive incoming requests from clients.
- Port 68 (UDP): Client port used by devices to broadcast discovery messages and receive network data from the server.
 
-Why Devices Need DHCP
-No IP Conflicts: Prevents two devices from getting the exact same IP.
-Automation: Automates IP assignment for hundreds of devices instantly.
-Mobility: Lets laptops and phones join new networks seamlessly.
-Efficiency: Reclaims unused IP addresses when devices leave.
