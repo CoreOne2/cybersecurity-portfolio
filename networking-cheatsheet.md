@@ -36,3 +36,5 @@ No IP Conflicts: Prevents two devices from getting the exact same IP.
 Automation: Automates IP assignment for hundreds of devices instantly.
 Mobility: Lets laptops and phones join new networks seamlessly.
 Efficiency: Reclaims unused IP addresses when devices leave.
+
+![DHCPl Diagram](./dhcp.jpg)
