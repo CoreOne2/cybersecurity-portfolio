@@ -25,6 +25,7 @@ Here are the detail of 7 OSI layers
 
  ![Port Diagram](./port.png)
 
- DHCP (Ports 67/68)
+ DHCP : The Dynamic Host Configuration Protocol (DHCP) automates network setup so you do not have to configure IP addresses manually.
+ 
  Port 67 (UDP): Server port used to listen for and receive incoming requests from clients.
  Port 68 (UDP): Client port used by devices to broadcast discovery messages and receive network data from the server.
