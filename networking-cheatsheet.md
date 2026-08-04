@@ -24,4 +24,7 @@ Here are the detail of 7 OSI layers
  Modern standard: Required by web browsers, which warn users when a site is unsecure
 
  ![Port Diagram](./port.png)
- 
+
+ DHCP (Ports 67/68)
+ Port 67 (UDP): Server port used to listen for and receive incoming requests from clients.
+ Port 68 (UDP): Client port used by devices to broadcast discovery messages and receive network data from the server.
