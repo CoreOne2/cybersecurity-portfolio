@@ -37,7 +37,7 @@ Automation: Automates IP assignment for hundreds of devices instantly.
 Mobility: Lets laptops and phones join new networks seamlessly.
 Efficiency: Reclaims unused IP addresses when devices leave.
 
-![DHCPl Diagram](./dhcp.png)
+![DHCP Diagram](./dhcp.png)
 
  CIA Triad 
  The CIA Triad is a core model in computer security. It stands for Confidentiality, Integrity, and Availability. It helps groups build rules to keep data safe.
@@ -45,5 +45,6 @@ Efficiency: Reclaims unused IP addresses when devices leave.
  Confidentiality Meaning: Keeping data private.
  Integrity Meaning: Keeping data exact and true.
  Availability Meaning: Making sure systems and data work when you need them.
- 
+
+ ![CIA Diagram](./CIA.png)
  
