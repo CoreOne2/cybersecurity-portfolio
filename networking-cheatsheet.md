@@ -49,4 +49,6 @@ Efficiency: Reclaims unused IP addresses when devices leave.
  ![CIA Diagram](./CIA.png)
 
  AAA Framework : The AAA framework most commonly refers to the Authentication, Authorization, and Accounting model used in computer network security to control system access, manage user permissions, and track activity.
+
+ ![AAA Diagram](./AAAframeowrk.png)
  
