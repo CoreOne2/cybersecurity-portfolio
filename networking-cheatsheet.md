@@ -55,3 +55,14 @@ Efficiency: Reclaims unused IP addresses when devices leave.
  The Cyber Kill Chain and the MITRE ATT&CK Framework 
  The Cyber Kill Chain and the MITRE ATT&CK Framework are essential cybersecurity models that map and help disrupt adversary behavior. 
  The Kill Chain provides a high-level, linear timeline of an attack, while MITRE ATT&CK offers a detailed, non-linear matrix of specific adversary techniques
+
+Cyber Kill Chain 
+
+The Cyber Kill ChainDeveloped by Lockheed Martin, this model breaks an intrusion into seven sequential phases. If a defender stops any one step, the attack fails.
+Reconnaissance: Gathering target data and mapping weaknesses.
+Weaponization: Creating a malicious payload.
+Delivery: Sending the payload via email or web.
+Exploitation: Triggering code to breach a system.
+Installation: Placing malware for persistence.
+Command and Control (C2): Opening remote access channels.
+Actions on Objectives: Stealing data or disrupting operations.The MITRE ATT&CK Framework
