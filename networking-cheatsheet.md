@@ -51,4 +51,7 @@ Efficiency: Reclaims unused IP addresses when devices leave.
  AAA Framework : The AAA framework most commonly refers to the Authentication, Authorization, and Accounting model used in computer network security to control system access, manage user permissions, and track activity.
 
  ![AAA Diagram](./AAA.png)
- 
+
+ The Cyber Kill Chain and the MITRE ATT&CK Framework 
+ The Cyber Kill Chain and the MITRE ATT&CK Framework are essential cybersecurity models that map and help disrupt adversary behavior. 
+ The Kill Chain provides a high-level, linear timeline of an attack, while MITRE ATT&CK offers a detailed, non-linear matrix of specific adversary techniques
