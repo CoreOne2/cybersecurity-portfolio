@@ -76,4 +76,4 @@ Tactics: Represents the adversary's short-term tactical goals (e.g., Initial Acc
 Techniques & Sub-techniques: Describes the exact technical methods used to perform each tactic.
 Actionable Intelligence: Maps specific telemetry and detection rules to real-world threat groups.
 
-
+ ![Kill vs MITRE Diagram](./kill.png)
