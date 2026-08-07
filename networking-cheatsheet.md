@@ -103,4 +103,10 @@ Sets are unordered collections of unique elements. They completely disallow dupl
 Syntax: my_set = {1, 2, 3, 4}
 Accessing: Elements cannot be accessed by index. You must check for items using the in keyword or loop through them.
 Common Methods: .add(), .remove(), .union(), .intersection(), .difference()
+
+When to Use Which?
+Use a String when dealing strictly with textual information, words, or character data.
+Use a List when keeping items in a specific sequence or timeline matters, and you need to frequently update that list.
+Use a Dictionary when you want to label data for rapid, direct lookup (e.g., database records, configurations).
+Use a Set Set when you need to discard duplicate values from data collections or perform quick lookup operations.
  
