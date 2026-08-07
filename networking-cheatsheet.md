@@ -92,5 +92,11 @@ Syntax: my_list = [1, "apple", 3.14, "apple"]
 Accessing: Zero-indexed positional tracking (e.g., my_list[1]).
 Common Methods: .append(), .insert(), .pop(), .remove(), .sort()
 
+Dictionaries (dict)
+Dictionaries store data in key-value pairs, working similarly to an associative array or a hash map. Keys must be unique and immutable data types (like strings or integers), while values can be anything.
+Syntax: my_dict = {"name": "Alice", "age": 25}
+Accessing: Data is instantly accessed using its key instead of an index (e.g., my_dict["name"]).
+Common Methods: .keys(), .values(), .items(), .get(), .update()
+
 
  
