@@ -77,3 +77,13 @@ Techniques & Sub-techniques: Describes the exact technical methods used to perfo
 Actionable Intelligence: Maps specific telemetry and detection rules to real-world threat groups.
 
  ![Kill vs MITRE Diagram](./kill.png)
+
+ Data Structures
+
+ Strings (str)
+ Strings are ordered, immutable sequences of characters primarily used to store and manipulate text data. Because they are immutable, any modification creates a completely new string object in memory.
+ Syntax: my_str = "Python"
+ Indexing/Slicing: Access single characters via my_str[0] or sub-strings via my_str[0:3].
+ Common Methods: .upper(), .lower(), .replace(), .split(), .join()
+
+ 
