@@ -86,4 +86,11 @@ Actionable Intelligence: Maps specific telemetry and detection rules to real-wor
  Indexing/Slicing: Access single characters via my_str[0] or sub-strings via my_str[0:3].
  Common Methods: .upper(), .lower(), .replace(), .split(), .join()
 
+Lists (list)
+Lists are ordered, mutable collections that can hold items of any data type, including duplicates. They act as dynamic arrays, allowing you to add, remove, or rearrange items at will.
+Syntax: my_list = [1, "apple", 3.14, "apple"]
+Accessing: Zero-indexed positional tracking (e.g., my_list[1]).
+Common Methods: .append(), .insert(), .pop(), .remove(), .sort()
+
+
  
