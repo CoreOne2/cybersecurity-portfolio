@@ -98,5 +98,9 @@ Syntax: my_dict = {"name": "Alice", "age": 25}
 Accessing: Data is instantly accessed using its key instead of an index (e.g., my_dict["name"]).
 Common Methods: .keys(), .values(), .items(), .get(), .update()
 
-
+Sets (set)
+Sets are unordered collections of unique elements. They completely disallow duplicate values and are heavily optimized for mathematical set math and membership testing.
+Syntax: my_set = {1, 2, 3, 4}
+Accessing: Elements cannot be accessed by index. You must check for items using the in keyword or loop through them.
+Common Methods: .add(), .remove(), .union(), .intersection(), .difference()
  
