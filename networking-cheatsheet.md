@@ -109,4 +109,5 @@ Use a String when dealing strictly with textual information, words, or character
 Use a List when keeping items in a specific sequence or timeline matters, and you need to frequently update that list.
 Use a Dictionary when you want to label data for rapid, direct lookup (e.g., database records, configurations).
 Use a Set Set when you need to discard duplicate values from data collections or perform quick lookup operations.
- 
+
+ ![Data Structure Diagram](./ds.png)
