@@ -116,4 +116,6 @@ Use a Set Set when you need to discard duplicate values from data collections or
  
  Principle of Least Privilege (PoLP): Users and systems should only be granted the minimum permissions necessary to perform their job functions.
 
+ ![Polp Diagram](./polp.jpg)
+
 Zero Trust Architecture (ZTA): The security posture operating under the assumption "Never Trust, Always Verify." Every request is authenticated and authorized regardless of whether it originates inside or outside the network perimeter.
