@@ -111,3 +111,8 @@ Use a Dictionary when you want to label data for rapid, direct lookup (e.g., dat
 Use a Set Set when you need to discard duplicate values from data collections or perform quick lookup operations.
 
  ![Data Structure Diagram](./ds.png)
+
+ Security Principles
+ Principle of Least Privilege (PoLP): Users and systems should only be granted the minimum permissions necessary to perform their job functions.
+
+Zero Trust Architecture (ZTA): The security posture operating under the assumption "Never Trust, Always Verify." Every request is authenticated and authorized regardless of whether it originates inside or outside the network perimeter.
