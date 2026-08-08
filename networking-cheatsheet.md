@@ -119,3 +119,5 @@ Use a Set Set when you need to discard duplicate values from data collections or
  ![Polp Diagram](./polp.jpg)
 
 Zero Trust Architecture (ZTA): The security posture operating under the assumption "Never Trust, Always Verify." Every request is authenticated and authorized regardless of whether it originates inside or outside the network perimeter.
+
+ ![Zero Diagram](./zero.jpg)
