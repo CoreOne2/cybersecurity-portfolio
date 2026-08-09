@@ -153,3 +153,5 @@ Cross-Site Request Forgery (CSRF): Tricking an authenticated user's browser into
 
 Broken Access Control: Users acting outside of their intended permissions (e.g., changing user_id=10 to user_id=1 in a browser URL to access admin panels).
 
+ ![OWASP Diagram](./owasp.jpg)
+
