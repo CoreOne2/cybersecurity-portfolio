@@ -139,4 +139,4 @@ Recovery: Restoring systems from clean backups and testing that normal operation
 
 Post-Incident Activity (Lessons Learned): Documenting what happened, writing an Incident Report, and improving controls to prevent the attack from happening again.
 
-
+ ![CIRL Diagram](./cirl.webp)
