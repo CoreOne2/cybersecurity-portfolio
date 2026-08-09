@@ -140,3 +140,16 @@ Recovery: Restoring systems from clean backups and testing that normal operation
 Post-Incident Activity (Lessons Learned): Documenting what happened, writing an Incident Report, and improving controls to prevent the attack from happening again.
 
  ![CIRL Diagram](./cirl.webp)
+
+ Web Application Security & OWASP Top 10
+ 
+ Web applications are one of the primary attack surfaces. The OWASP Top 10 lists the most critical web application security risks:
+
+SQL Injection (SQLi): Inserting malicious SQL statements into user input fields to read or corrupt backend database entries.
+
+Cross-Site Scripting (XSS): Injecting malicious JavaScript into web pages viewed by other users to steal session cookies or credentials.
+
+Cross-Site Request Forgery (CSRF): Tricking an authenticated user's browser into executing unintended actions on a web application.
+
+Broken Access Control: Users acting outside of their intended permissions (e.g., changing user_id=10 to user_id=1 in a browser URL to access admin panels).
+
