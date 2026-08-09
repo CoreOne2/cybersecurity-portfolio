@@ -121,3 +121,22 @@ Use a Set Set when you need to discard duplicate values from data collections or
 Zero Trust Architecture (ZTA): The security posture operating under the assumption "Never Trust, Always Verify." Every request is authenticated and authorized regardless of whether it originates inside or outside the network perimeter.
 
  ![Zero Diagram](./zero.jpg)
+
+Incident Response Lifecycle (NIST SP 800-61)
+When a security alert triggers, SOC analysts follow a standard 4-step framework created by NIST to handle the incident:
+
+Preparation: Setting up tools, monitoring software, and incident response plans before an attack happens.
+
+Detection & Analysis: Identifying suspicious activity, validating whether an alert is a true positive or false positive, and determining the scope of the incident.
+
+Containment, Eradication, & Recovery:
+
+Containment: Isolating affected machines (e.g., disconnecting a infected host from the network) to prevent malware spread.
+
+Eradication: Deleting malware, removing backdoor accounts, and closing exploited vulnerabilities.
+
+Recovery: Restoring systems from clean backups and testing that normal operations can resume safely.
+
+Post-Incident Activity (Lessons Learned): Documenting what happened, writing an Incident Report, and improving controls to prevent the attack from happening again.
+
+
