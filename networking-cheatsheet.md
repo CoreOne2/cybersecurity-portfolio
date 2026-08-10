@@ -172,3 +172,5 @@ Phishing / Spear Phishing : Social engineering via email targeting users to harv
  Worm : Self-replicating code that spreads autonomously across network vulnerabilities without needing a host file or human intervention.
 
  Virus : Attaches malicious code to a legitimate host file or executable program and requires human interaction/execution to spread.
+
+ Rootkit : Grants attackers elevated administrative or root access while masking its presence deep within the OS or firmware.
