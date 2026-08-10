@@ -160,3 +160,7 @@ Threat Categories & Malware Types
 Phishing / Spear Phishing : Social engineering via email targeting users to harvest credentials or deliver malicious attachments.
 
  ![Phising Diagram](./vs.png)
+
+ Ransomware : Malware that encrypts victim files and demands payment for the decryption key.
+
+ Trojan : 
