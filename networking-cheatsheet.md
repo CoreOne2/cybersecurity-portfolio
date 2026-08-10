@@ -163,4 +163,6 @@ Phishing / Spear Phishing : Social engineering via email targeting users to harv
 
  Ransomware : Malware that encrypts victim files and demands payment for the decryption key.
 
- Trojan : 
+ Trojan : Malicious software disguised as legitimate, benign software.
+
+ Spyware / Keylogger : Software silently capturing keystrokes, screen images, or sensitive credentials.
