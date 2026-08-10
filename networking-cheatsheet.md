@@ -166,3 +166,5 @@ Phishing / Spear Phishing : Social engineering via email targeting users to harv
  Trojan : Malicious software disguised as legitimate, benign software.
 
  Spyware / Keylogger : Software silently capturing keystrokes, screen images, or sensitive credentials.
+
+ C2 (Command & Control) : Server infrastructure operated by attackers to remotely send commands to compromised hosts on a target network.
