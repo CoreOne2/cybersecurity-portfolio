@@ -158,3 +158,5 @@ Broken Access Control: Users acting outside of their intended permissions (e.g.,
 Threat Categories & Malware Types 
 
 Phishing / Spear Phishing : Social engineering via email targeting users to harvest credentials or deliver malicious attachments.
+
+ ![Phising Diagram](./vs.png)
