@@ -168,3 +168,7 @@ Phishing / Spear Phishing : Social engineering via email targeting users to harv
  Spyware / Keylogger : Software silently capturing keystrokes, screen images, or sensitive credentials.
 
  C2 (Command & Control) : Server infrastructure operated by attackers to remotely send commands to compromised hosts on a target network.
+
+ Worm : Self-replicating code that spreads autonomously across network vulnerabilities without needing a host file or human intervention.
+
+ Virus : Attaches malicious code to a legitimate host file or executable program and requires human interaction/execution to spread.
