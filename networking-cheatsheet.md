@@ -155,3 +155,6 @@ Broken Access Control: Users acting outside of their intended permissions (e.g.,
 
  ![OWASP Diagram](./owasp.jpg)
 
+Threat Categories & Malware Types 
+
+Phishing / Spear Phishing : Social engineering via email targeting users to harvest credentials or deliver malicious attachments.
