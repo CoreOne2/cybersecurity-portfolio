@@ -175,6 +175,8 @@ Phishing / Spear Phishing : Social engineering via email targeting users to harv
 
  Rootkit : Grants attackers elevated administrative or root access while masking its presence deep within the OS or firmware.
 
+  ![Threat Diagram](./vwt.jpg)
+
 # Major Threat Categories #
 
 These represent the broader methods, attack vectors, and operational goals used by cybercriminals.
