@@ -155,7 +155,7 @@ Broken Access Control: Users acting outside of their intended permissions (e.g.,
 
  ![OWASP Diagram](./owasp.jpg)
 
-# Threat Categories & Malware Types **
+Threat Categories & Malware Types 
 
 Phishing / Spear Phishing : Social engineering via email targeting users to harvest credentials or deliver malicious attachments.
 
@@ -191,7 +191,7 @@ Insider Threats: Malicious or negligent behavior originating from within an orga
 
 Credential & Identity Attacks: Compromising authentication mechanisms via brute-force attacks, credential stuffing, or password spraying.
 
-# Defense Best Practices 
+Defense Best Practices 
 
 Zero Trust & Network Segmentation: Prevent lateral movement by strictly enforcing principle of least privilege (PoLP).
 
