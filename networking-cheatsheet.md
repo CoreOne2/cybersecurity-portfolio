@@ -155,7 +155,7 @@ Broken Access Control: Users acting outside of their intended permissions (e.g.,
 
  ![OWASP Diagram](./owasp.jpg)
 
-Threat Categories & Malware Types 
+** Threat Categories & Malware Types **
 
 Phishing / Spear Phishing : Social engineering via email targeting users to harvest credentials or deliver malicious attachments.
 
@@ -190,3 +190,15 @@ Examples: Distributed Denial of Service (DDoS), Man-in-the-Middle (MitM), SQL In
 Insider Threats: Malicious or negligent behavior originating from within an organization (employees, contractors, partners).
 
 Credential & Identity Attacks: Compromising authentication mechanisms via brute-force attacks, credential stuffing, or password spraying.
+
+** Defense Best Practices **
+
+Zero Trust & Network Segmentation: Prevent lateral movement by strictly enforcing principle of least privilege (PoLP).
+
+Endpoint Detection & Response (EDR/XDR): Go beyond basic signature-based antivirus to monitor behavioral anomalies (essential for catching fileless malware and ransomware).
+
+Patch Management: Regularly update software, applications, and firmware to eliminate known exploits.
+
+Multi-Factor Authentication (MFA): Mitigate the impact of stolen credentials from spyware or phishing attacks.
+
+Immutable Backups: Maintain offline or air-gapped backups to recover quickly from ransomware attacks without paying ransoms.
