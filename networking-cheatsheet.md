@@ -174,3 +174,19 @@ Phishing / Spear Phishing : Social engineering via email targeting users to harv
  Virus : Attaches malicious code to a legitimate host file or executable program and requires human interaction/execution to spread.
 
  Rootkit : Grants attackers elevated administrative or root access while masking its presence deep within the OS or firmware.
+
+ Major Threat Categories
+
+These represent the broader methods, attack vectors, and operational goals used by cybercriminals.
+
+Social Engineering: Manipulating human psychology to trick users into divulging confidential information, downloading malware, or granting unauthorized access.
+
+Examples: Phishing (email), Spear Phishing (targeted email), Smishing (SMS), Vishing (voice calls), Baiting.  
+
+Network & Web-Based Attacks: Disrupting services, intercepting data in transit, or breaching web infrastructure.
+
+Examples: Distributed Denial of Service (DDoS), Man-in-the-Middle (MitM), SQL Injection (SQLi), Cross-Site Scripting (XSS).Exploits & Vulnerability Attacks: Targeting unpatched bugs or zero-day security flaws in hardware, firmware, or software.
+
+Insider Threats: Malicious or negligent behavior originating from within an organization (employees, contractors, partners).
+
+Credential & Identity Attacks: Compromising authentication mechanisms via brute-force attacks, credential stuffing, or password spraying.
