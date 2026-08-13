@@ -28,7 +28,7 @@ Using Cloud Intelligence
 EDR sends activity data to a cloud brain that uses AI to spot patterns and compare them against known hacker techniques worldwide.
 
 
-#Anatomy of a Blocked Fileless Attack
+Anatomy of a Blocked Fileless Attack
 
 Infiltration: User opens a phishing document containing a malicious macro.
 
@@ -39,7 +39,7 @@ Detection: EDR's AMSI integration intercepts the de-obfuscated script in RAM. Si
 Blocking: EDR terminates the PowerShell process in milliseconds, blocks the outbound C2 network request, and alerts the Security Operations Center (SOC) with a full execution timeline.
 
 
-#How EDR Blocks the Attack
+How EDR Blocks the Attack
 
 When EDR spots something suspicious, it acts instantly:
 
