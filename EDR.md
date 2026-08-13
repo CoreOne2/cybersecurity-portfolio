@@ -49,3 +49,5 @@ Kills the program: Closes the abused application immediately.
 Disconnects the computer: Temporarily cuts off the device from the network so the attack can't spread.
 
 Wipes the memory: Clears out the malicious code sitting in RAM.
+
+![EDR Diagram](./eddr.webp)
