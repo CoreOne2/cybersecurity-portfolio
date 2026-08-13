@@ -27,6 +27,7 @@ Using Cloud Intelligence
 
 EDR sends activity data to a cloud brain that uses AI to spot patterns and compare them against known hacker techniques worldwide.
 
+![EDR Diagram](./edr.jpg)
 
 Anatomy of a Blocked Fileless Attack
 
