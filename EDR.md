@@ -64,3 +64,5 @@ It organizes an attack into a step-by-step timeline called Tactics (the hacker's
 ![MITRE Diagram](./mitre.jpg)
 
 Why it's useful: When security teams find an attack, they use MITRE to say: "Okay, the hacker used Technique X to get in, so they will likely try Technique Y next. Let's block that path right now
+
+SIEM (Security Information & Event Management)
