@@ -59,4 +59,6 @@ Think of it as: A "playbook" or "dictionary" of every single trick and technique
 When a crime happens, police look at the modus operandi (MO) of the criminal. In cybersecurity, the MITRE ATT&CK Framework does the exact same thing for hackers.
 
 How it Works
-It organizes an attack into a step-by-step timeline called Tactics (the hacker's goal at each stage) and Techniques (how they achieve that goal):
+It organizes an attack into a step-by-step timeline called Tactics (the hacker's goal at each stage) and Techniques (how they achieve that goal)
+
+![MITRE Diagram](./mitre.jpg)
