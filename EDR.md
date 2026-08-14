@@ -51,3 +51,12 @@ Disconnects the computer: Temporarily cuts off the device from the network so th
 Wipes the memory: Clears out the malicious code sitting in RAM.
 
 ![EDR Diagram](./eddr.webp)
+
+MITRE ATT&CK Framework
+
+Think of it as: A "playbook" or "dictionary" of every single trick and technique hackers use.
+
+When a crime happens, police look at the modus operandi (MO) of the criminal. In cybersecurity, the MITRE ATT&CK Framework does the exact same thing for hackers.
+
+How it Works
+It organizes an attack into a step-by-step timeline called Tactics (the hacker's goal at each stage) and Techniques (how they achieve that goal):
