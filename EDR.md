@@ -88,3 +88,6 @@ Think of it as: The emergency response protocol firemen follow when a house catc
 
 When malware slips through or a hacker breaches the network, security teams don't panic—they follow a standard 4-step plan (created by SANS/NIST):
 
+ Preparation  --->  2. Detection & Analysis  --->  3. Containment & Eradication  --->  4. Recovery & Lessons Learned
+
+ 
