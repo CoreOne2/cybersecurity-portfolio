@@ -81,3 +81,10 @@ Your firewall logs show a login attempt from abroad.
 Your server logs show someone accessing sensitive HR files at 3:00 AM.
 
 Neither event looks terrible on its own, but the SIEM connects both events and alerts the security team: "Someone logged in from overseas and immediately pulled sensitive files!"
+
+The Incident Response (IR) Lifecycle
+
+Think of it as: The emergency response protocol firemen follow when a house catches fire.
+
+When malware slips through or a hacker breaches the network, security teams don't panic—they follow a standard 4-step plan (created by SANS/NIST):
+
