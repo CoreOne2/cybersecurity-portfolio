@@ -66,3 +66,18 @@ It organizes an attack into a step-by-step timeline called Tactics (the hacker's
 Why it's useful: When security teams find an attack, they use MITRE to say: "Okay, the hacker used Technique X to get in, so they will likely try Technique Y next. Let's block that path right now
 
 SIEM (Security Information & Event Management)
+
+Think of it as: The central security control room that gathers security camera feeds from every building in a city.
+
+While EDR only monitors individual computers (endpoints), an enterprise network has hundreds of other devices: firewalls, cloud servers, email gateways, and routers.
+
+How it Works
+A SIEM (popular tools include Splunk or Microsoft Sentinel) collects activity records (logs) from everything on the network and connects the dots in real time.
+
+Example:
+
+Your firewall logs show a login attempt from abroad.
+
+Your server logs show someone accessing sensitive HR files at 3:00 AM.
+
+Neither event looks terrible on its own, but the SIEM connects both events and alerts the security team: "Someone logged in from overseas and immediately pulled sensitive files!"
