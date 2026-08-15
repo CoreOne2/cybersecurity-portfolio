@@ -101,4 +101,9 @@ Containment: Cutting off infected computers from the network so the threat can't
 Eradication: Deleting the malware, closing the security hole, and removing hacker backdoors.
 
 Recovery & Lessons Learned: Restoring systems safely from clean backups and updating defenses so that exact same attack can never happen again.
+
+***The Scenario: "The Fake Invoice Attack"***
+Target: Acme Corp (a mid-sized company)
+
+Goal of the Hacker: Steal financial records and install ransomware.
  
