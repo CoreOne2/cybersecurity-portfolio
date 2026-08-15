@@ -90,4 +90,15 @@ When malware slips through or a hacker breaches the network, security teams don'
 
  Preparation  --->  2. Detection & Analysis  --->  3. Containment & Eradication  --->  4. Recovery & Lessons Learned
 
+Preparation: Setting up tools (EDR, SIEM), creating backups, and training staff before an attack happens.
+
+Detection & Analysis: Spotting the threat, figuring out what type of malware it is, and finding out how far the hacker got.
+
+Containment & Eradication:
+
+Containment: Cutting off infected computers from the network so the threat can't spread.
+
+Eradication: Deleting the malware, closing the security hole, and removing hacker backdoors.
+
+Recovery & Lessons Learned: Restoring systems safely from clean backups and updating defenses so that exact same attack can never happen again.
  
