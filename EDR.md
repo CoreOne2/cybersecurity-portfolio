@@ -117,3 +117,19 @@ The script steals Sarah's saved domain passwords and uses them to log into the c
 
 How the Security Tools React:EDR & SIEM (Collecting the Evidence):The EDR on Sarah's laptop flags outlook.exe spawning powershell.exe.The Firewall logs a strange outbound connection to an unknown IP address.The Domain Server logs a successful admin login from Sarah's account at 2:00 AM.The SIEM correlates all three events and fires a critical alert to the Security Operations Center (SOC):⚠️ SIEM Alert: Suspicious script execution followed by off-hours administrative login.MITRE ATT&CK (Mapping the Hacker's Steps):The security analyst opens the alert and maps the hacker's actions to the MITRE framework:Phishing (T1566) $\rightarrow$ Initial AccessPowerShell (T1059.001) $\rightarrow$ ExecutionOS Credential Dumping (T1003) $\rightarrow$ Credential AccessUse of Valid Accounts (T1078) $\rightarrow$ Defense Evasion / Lateral Movement
 
+Step 2: The Security Team Responds (Incident Response Phase)
+Now that the analyst understands the threat using MITRE ATT&CK, the company executes its Incident Response (IR) Plan:
+
+[ SIEM Alert Triggered ]
+         │
+         ▼
+1. CONTAINMENT ──────► Disconnect Sarah's PC & Server from network via EDR
+         │
+         ▼
+2. ERADICATION ──────► Reset compromised credentials & kill malicious processes
+         │
+         ▼
+3. RECOVERY    ──────► Audit database logs & restore clean backups
+         │
+         ▼
+4. LESSONS LEARNED ──► Add new SIEM rules & run phishing awareness training
