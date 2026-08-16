@@ -114,3 +114,6 @@ An accountant named Sarah receives an email titled "Unpaid Invoice #8492.pdf.exe
 The malicious file runs a hidden PowerShell script in memory (Fileless Malware).
 
 The script steals Sarah's saved domain passwords and uses them to log into the company's central server.
+
+How the Security Tools React:EDR & SIEM (Collecting the Evidence):The EDR on Sarah's laptop flags outlook.exe spawning powershell.exe.The Firewall logs a strange outbound connection to an unknown IP address.The Domain Server logs a successful admin login from Sarah's account at 2:00 AM.The SIEM correlates all three events and fires a critical alert to the Security Operations Center (SOC):⚠️ SIEM Alert: Suspicious script execution followed by off-hours administrative login.MITRE ATT&CK (Mapping the Hacker's Steps):The security analyst opens the alert and maps the hacker's actions to the MITRE framework:Phishing (T1566) $\rightarrow$ Initial AccessPowerShell (T1059.001) $\rightarrow$ ExecutionOS Credential Dumping (T1003) $\rightarrow$ Credential AccessUse of Valid Accounts (T1078) $\rightarrow$ Defense Evasion / Lateral Movement
+
