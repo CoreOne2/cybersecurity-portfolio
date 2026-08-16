@@ -106,4 +106,11 @@ Recovery & Lessons Learned: Restoring systems safely from clean backups and upda
 Target: Acme Corp (a mid-sized company)
 
 Goal of the Hacker: Steal financial records and install ransomware.
- 
+
+ Step 1: The Attack Begins (Detection Phase)
+What Happens:
+An accountant named Sarah receives an email titled "Unpaid Invoice #8492.pdf.exe". She clicks it.
+
+The malicious file runs a hidden PowerShell script in memory (Fileless Malware).
+
+The script steals Sarah's saved domain passwords and uses them to log into the company's central server.
