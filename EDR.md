@@ -133,3 +133,22 @@ Now that the analyst understands the threat using MITRE ATT&CK, the company exec
          │
          ▼
 4. LESSONS LEARNED ──► Add new SIEM rules & run phishing awareness training
+
+
+1. Containment (Stop the Spread)
+Using the EDR, the security team instantly isolates Sarah’s laptop and the compromised server from the network so the hacker cannot spread ransomware to other computers.
+
+2. Eradication (Remove the Threat)
+The team revokes Sarah's compromised passwords across the entire system.
+
+They terminate the active PowerShell processes and block the hacker's server IP address on the perimeter firewall.
+
+3. Recovery (Back to Normal)
+The team checks the database logs to verify no files were destroyed.
+
+They safely restore affected system configurations from clean backups and reconnect the devices to the network.
+
+4. Lessons Learned (Get Stronger)
+The team creates a new rule in the SIEM to automatically block executable files coming through email.
+
+They update their endpoint rules based on the MITRE ATT&CK techniques observed during the attack.
