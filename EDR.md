@@ -152,3 +152,10 @@ They safely restore affected system configurations from clean backups and reconn
 The team creates a new rule in the SIEM to automatically block executable files coming through email.
 
 They update their endpoint rules based on the MITRE ATT&CK techniques observed during the attack.
+
+How They Worked Together: A Quick Recap
+MITRE ATT&CK provided the map (helped the team figure out what the hacker was doing and what they would try next).
+
+SIEM provided the eyes (connected disconnected clues from the laptop, firewall, and server to sound the alarm).
+
+Incident Response provided the action plan (the step-by-step process to contain, clean, and recover from the breach).
