@@ -204,3 +204,15 @@ Blue Team (Defenders): The SOC analysts, IR handlers, and engineers responsible 
 Red Team (Offensive Attackers): Adversaries (internal or hired external experts) who simulate realistic, multi-stage cyberattacks against an organization using real-world TTPs (Tactics, Techniques, and Procedures).
 
 Purple Team (Collaborative Exercise): A joint exercise where Red and Blue teams work side-by-side to immediately test, validate, and improve detection coverage in real time.
+
+Identity, Encryption, & Data Protection
+
+Protecting the underlying data and user identities even if network boundaries fail.
+
+Public Key Infrastructure (PKI) & Encryption:
+
+Symmetric vs. Asymmetric Encryption: Using secret keys (AES) for fast data encryption versus public/private key pairs (RSA/ECC) for secure key exchanges and digital signatures.
+
+Data at Rest vs. Data in Transit vs. Data in Use: Protecting stored files (disk encryption), network traffic (TLS/HTTPS), and active memory buffers.
+
+Data Loss Prevention (DLP): Tools that monitor and prevent sensitive data (credit cards, PII, intellectual property) from leaving the corporate network via email, USB drives, or cloud uploads.
