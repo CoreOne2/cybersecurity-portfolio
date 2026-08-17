@@ -179,4 +179,12 @@ Cloud Security (IAM, CSPM, & Shared Responsibility):
 
 Shared Responsibility Model: Understanding what the cloud provider protects (physical servers, hypervisors) versus what you protect (your data, access controls, configurations).
 
+Threat & Vulnerability Management
+
+Before an attacker exploits a flaw, security teams work proactively to discover and fix system weaknesses.
+
+[ Scan & Discover ] ---> [ Risk Prioritization (CVSS) ] ---> [ Patch & Remediation ] ---> [ Verification ]
+
+
+
 Identity and Access Management (IAM): Enforcing the Principle of Least Privilege (PoLP) and enforcing Multi-Factor Authentication (MFA).
