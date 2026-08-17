@@ -193,6 +193,14 @@ Penetration Testing (Ethical Hacking): Authorized, simulated attacks conducted b
 
 CVSS Scoring & Patch Management: Using the Common Vulnerability Scoring System (0–10 scale) to prioritize which security updates and patches must be deployed first based on severity and exploitability.
 
-
-
 Identity and Access Management (IAM): Enforcing the Principle of Least Privilege (PoLP) and enforcing Multi-Factor Authentication (MFA).
+
+Offensive Security & Red/Blue/Purple Teaming
+
+Understanding how security operations evaluate and stress-test their defenses.
+
+Blue Team (Defenders): The SOC analysts, IR handlers, and engineers responsible for maintaining EDR, SIEM, and defending infrastructure.
+
+Red Team (Offensive Attackers): Adversaries (internal or hired external experts) who simulate realistic, multi-stage cyberattacks against an organization using real-world TTPs (Tactics, Techniques, and Procedures).
+
+Purple Team (Collaborative Exercise): A joint exercise where Red and Blue teams work side-by-side to immediately test, validate, and improve detection coverage in real time.
