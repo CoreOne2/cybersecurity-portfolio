@@ -159,3 +159,24 @@ MITRE ATT&CK provided the map (helped the team figure out what the hacker was do
 SIEM provided the eyes (connected disconnected clues from the laptop, firewall, and server to sound the alarm).
 
 Incident Response provided the action plan (the step-by-step process to contain, clean, and recover from the breach).
+
+
+Network & Cloud Security Foundations
+
+Moving beyond endpoints, security teams must protect data flowing across internal networks and cloud environments.
+
+Zero Trust Architecture (ZTA): Moving away from the traditional "perimeter" defense (where everything inside the office network is trusted) to a model of "never trust, always verify". Every user, device, and connection request must be continuously authenticated and authorized.
+
+Firewalls, WAFs, & Network Segmentation:
+
+Next-Gen Firewalls (NGFW): Inspect traffic at the application layer to block unauthorized ports, protocols, and malicious IPs.
+
+Web Application Firewalls (WAF): Sit in front of web applications to filter out web-based attacks like SQL Injection (SQLi) and Cross-Site Scripting (XSS).
+
+Network Segmentation: Dividing networks into isolated subnets so that if an attacker breaches one workstation, they cannot easily reach domain controllers or sensitive databases.
+
+Cloud Security (IAM, CSPM, & Shared Responsibility):
+
+Shared Responsibility Model: Understanding what the cloud provider protects (physical servers, hypervisors) versus what you protect (your data, access controls, configurations).
+
+Identity and Access Management (IAM): Enforcing the Principle of Least Privilege (PoLP) and enforcing Multi-Factor Authentication (MFA).
