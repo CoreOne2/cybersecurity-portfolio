@@ -185,6 +185,14 @@ Before an attacker exploits a flaw, security teams work proactively to discover 
 
 [ Scan & Discover ] ---> [ Risk Prioritization (CVSS) ] ---> [ Patch & Remediation ] ---> [ Verification ]
 
+Vulnerability Scanning vs. Penetration Testing:
+
+Vulnerability Scanning: Automated tools (e.g., Nessus, Qualys) that continuously scan network devices and software to report known security flaws (CVEs).
+
+Penetration Testing (Ethical Hacking): Authorized, simulated attacks conducted by human professionals to find real-world exploitable pathways.
+
+CVSS Scoring & Patch Management: Using the Common Vulnerability Scoring System (0–10 scale) to prioritize which security updates and patches must be deployed first based on severity and exploitability.
+
 
 
 Identity and Access Management (IAM): Enforcing the Principle of Least Privilege (PoLP) and enforcing Multi-Factor Authentication (MFA).
