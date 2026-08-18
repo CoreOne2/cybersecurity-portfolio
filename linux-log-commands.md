@@ -8,3 +8,7 @@ cd [folder] : Change directory
 File Operations	cp, mv, rm
 
 File Viewing	cat, less, tail
+
+Search & Filter	grep, find
+
+Permissions	chmod, chown
