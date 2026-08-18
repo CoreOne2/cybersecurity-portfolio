@@ -236,3 +236,16 @@ The Purple Team is not usually a separate permanent department, but rather a fun
 |     RED TEAM     |  <--->  |    PURPLE TEAM     |  <--->  |    BLUE TEAM     |
 | (Offensive Test) |         | (Joint Validation) |         | (Defensive Fix)  |
 +------------------+         +--------------------+         +------------------+
+
+
+Why Purple Teaming is Necessary
+In traditional setups, Red Teams present a long PDF report weeks after an assessment, and Blue Teams struggle to reproduce the attacks or understand how alerts failed. Purple teaming solves this communication gap.
+
+How a Purple Team Exercise Works
+Plan: Red and Blue teams agree on specific MITRE ATT&CK techniques to test (e.g., Process Injection).
+
+Execute: The Red Team executes a single attack technique while the Blue Team watches their detection dashboards in real time.
+
+Analyze: If the Blue Team's EDR or SIEM fails to trigger an alert, both teams investigate why (e.g., missing log telemetry or misconfigured detection logic).
+
+Tune & Re-test: The Blue Team updates their detection rules on the spot, and the Red Team runs the attack again to verify that it is now successfully blocked.
