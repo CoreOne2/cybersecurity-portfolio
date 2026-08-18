@@ -227,3 +227,12 @@ Continuous Monitoring: Analyzing log feeds, network traffic, and system events u
 Incident Response (IR): Isolating infected endpoints, revoking compromised credentials, and eradicating threats during an ongoing breach.
 
 Hardening & Prevention: Configuring firewalls, applying patches, enforcing Zero Trust policies, and tuning alert rules to reduce false positives.
+
+
+The Purple Team (The Bridge)
+The Purple Team is not usually a separate permanent department, but rather a functional concept or collaborative exercise where Red and Blue teams work together in real time.
+
++------------------+         +--------------------+         +------------------+
+|     RED TEAM     |  <--->  |    PURPLE TEAM     |  <--->  |    BLUE TEAM     |
+| (Offensive Test) |         | (Joint Validation) |         | (Defensive Fix)  |
++------------------+         +--------------------+         +------------------+
