@@ -215,8 +215,15 @@ Multi-Vector Attacks: Combining social engineering (phishing, pretexting), netwo
 
 Objective-Driven Operations: Rather than just finding bugs, they target specific goals—such as exfiltrating a sensitive database or obtaining domain admin access—without getting caught.
 
-
-
-
-
 Immutable Backups: Maintain offline or air-gapped backups to recover quickly from ransomware attacks without paying ransoms.
+
+
+The Blue Team (The Defense)
+The Blue Team consists of the internal security operations staff tasked with defending the organization's infrastructure, detecting threats, and mitigating active attacks.
+
+Key Responsibilities
+Continuous Monitoring: Analyzing log feeds, network traffic, and system events using SIEM, EDR, and XDR tools.
+
+Incident Response (IR): Isolating infected endpoints, revoking compromised credentials, and eradicating threats during an ongoing breach.
+
+Hardening & Prevention: Configuring firewalls, applying patches, enforcing Zero Trust policies, and tuning alert rules to reduce false positives.
