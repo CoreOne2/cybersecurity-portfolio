@@ -249,3 +249,12 @@ Execute: The Red Team executes a single attack technique while the Blue Team wat
 Analyze: If the Blue Team's EDR or SIEM fails to trigger an alert, both teams investigate why (e.g., missing log telemetry or misconfigured detection logic).
 
 Tune & Re-test: The Blue Team updates their detection rules on the spot, and the Red Team runs the attack again to verify that it is now successfully blocked.
+
+How a Purple Team Exercise Works
+Plan: Red and Blue teams agree on specific MITRE ATT&CK techniques to test (e.g., Process Injection).
+
+Execute: The Red Team executes a single attack technique while the Blue Team watches their detection dashboards in real time.
+
+Analyze: If the Blue Team's EDR or SIEM fails to trigger an alert, both teams investigate why (e.g., missing log telemetry or misconfigured detection logic).
+
+Tune & Re-test: The Blue Team updates their detection rules on the spot, and the Red Team runs the attack again to verify that it is now successfully blocked.
