@@ -203,4 +203,20 @@ Patch Management: Regularly update software, applications, and firmware to elimi
 
 Multi-Factor Authentication (MFA): Mitigate the impact of stolen credentials from spyware or phishing attacks.
 
+
+
+The Red Team (The Offense)
+The Red Team acts as adversary emulators. They are ethical hackers tasked with evaluating the effectiveness of an organization’s security posture by simulating realistic, full-scope attacks.
+
+Key Responsibilities
+Adversary Emulation: Mimicking the exact Tactics, Techniques, and Procedures (TTPs) of real-world threat actors (mapped to the MITRE ATT&CK framework).
+
+Multi-Vector Attacks: Combining social engineering (phishing, pretexting), network exploitation, physical security breaches (e.g., tailgating into a server room), and custom malware development.
+
+Objective-Driven Operations: Rather than just finding bugs, they target specific goals—such as exfiltrating a sensitive database or obtaining domain admin access—without getting caught.
+
+
+
+
+
 Immutable Backups: Maintain offline or air-gapped backups to recover quickly from ransomware attacks without paying ransoms.
