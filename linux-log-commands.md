@@ -4,3 +4,7 @@ pwd : Print Working Directory (shows where you are)
 ls : List files and folders
 ls -la : List all files (including hidden ones) with details
 cd [folder] : Change directory
+
+File Operations	cp, mv, rm
+
+File Viewing	cat, less, tail
