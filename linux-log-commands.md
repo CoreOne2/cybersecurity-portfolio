@@ -12,3 +12,5 @@ File Viewing	cat, less, tail
 Search & Filter	grep, find
 
 Permissions	chmod, chown
+
+Process Control	ps, top, kill
