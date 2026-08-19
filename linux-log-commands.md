@@ -38,3 +38,15 @@ tcpdump -i eth0 -nn -A 'tcp port 80'
 
 # List active connections aggregated by foreign address
 ss -ant | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -nr
+
+# Find and terminate all processes matching a specific name
+pgrep -f "python_worker" | xargs kill -15
+
+# Monitor high-memory processes in real-time, refreshed every 2 seconds
+watch -n 2 'ps aux --sort=-%mem | head -n 10'
+
+# Dynamically change the priority (niceness) of a running process
+renice -n 10 -p 12345
+
+# View systemd service logs since last boot with live tailing
+journalctl -u nginx.service -b -f
