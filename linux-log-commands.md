@@ -29,3 +29,12 @@ find . -type f -mtime -1 -exec tar -rvf recent_files.tar {} +
 
 # Extract unique IP addresses from an access log and count hits
 awk '{print $1}' access.log | sort | uniq -c | sort -nr | head -n 10
+
+# Test port reachability with a timeout
+nc -zv -w 3 192.168.1.50 8080
+
+# Capture raw HTTP network traffic on port 80
+tcpdump -i eth0 -nn -A 'tcp port 80'
+
+# List active connections aggregated by foreign address
+ss -ant | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -nr
