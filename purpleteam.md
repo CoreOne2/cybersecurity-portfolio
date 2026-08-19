@@ -12,3 +12,5 @@ Phase 2: Execution Attempt 1 (Standard Attack Tool):Red Team executes attack usi
 Result: Pass (EDR Level). The EDR successfully blocked the out-of-the-box tool execution.
 
 Phase 3: Execution Attempt 2 (Evasion Technique):Red Team uses API call masking to bypass basic signatures.To test the boundaries of their detection, the Red Team uses a custom script that calls the native Windows API function MiniDumpWriteDump directly without using procdump.exe or Mimikatz.
+[ Custom Script ] ---> [ Direct API: MiniDumpWriteDump() ] ---> [ Read lsass.exe Memory ]
+Outcome: The custom script runs successfully and writes lsass_memory.dmp to disk. No block or high-priority EDR alert is triggered.
