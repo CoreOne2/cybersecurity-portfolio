@@ -20,3 +20,4 @@ Phase 4: Telemetry Analysis & Gap Identification:Joint analysis to figure out wh
 Phase 5: Rule Tuning & Detection Engineering:Blue Team writes a behavioral detection rule.The Blue Team updates the detection logic on the spot:Sysmon Config Update: Updated to capture all process access requests targeting lsass.exe where GrantedAccess includes 0x0010 (PROCESS_VM_READ) or 0x1400 (PROCESS_QUERY_INFORMATION + PROCESS_VM_READ).SIEM Correlation Rule: Created a custom Sigma/SIEM alert rule:Condition: Any process (excluding authorized Windows binaries like csrss.exe) requesting read access to lsass.exe.
 
 Phase 6: Re-Testing & Validation:Verifying the new detection rule works in real time.The Red Team executes the exact same custom API script from Phase 3 again.Result: Within 5 seconds, the SIEM triggers a Critical Severity Alert:"Unusual Process Access to LSASS Memory Detected on WORKSTATION-01".Confirmation: The Purple Team logs the exercise as Successfully Remediated.
+
