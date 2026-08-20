@@ -62,3 +62,15 @@ iptables -A INPUT -s 192.168.1.100 -j DROP
 
 # Audit recent failed login attempts via SSH
 grep "Failed password" /var/log/auth.log | awk '{print $(NF-3)}' | sort | uniq -c | sort -nr
+
+# Monitor page faults and RAM stats every 1 second (5 iterations)
+vmstat 1 5
+
+# Check open file descriptors used by a specific process ID
+ls -l /proc/12345/fd
+
+# Display kernel shared memory segments and semaphores
+ipcs -a
+
+# Measure exact system time, user time, and memory overhead of a command
+/usr/bin/time -v tar -czf backup.tar.gz /var/www/html
