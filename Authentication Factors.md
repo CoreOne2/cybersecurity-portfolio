@@ -8,3 +8,12 @@ Something You KNOW: A password, PIN, or the answer to a secret question.
 Something You HAVE: Your smartphone (receiving an SMS code or push notification) or a physical hardware key.
 
 Something You ARE: Biometrics like your fingerprint, face scan, or iris scan.
+
+Why Passwords Alone Aren't Enough
+Passwords are vulnerable because hackers use automated tools to break them or steal them:
+
+Phishing: Tricking you into typing your password on a fake website.
+
+Data Breaches: Hackers stealing password databases from company servers.
+
+Password Reuse: If you use the same password everywhere, one breach compromises all your accounts.
