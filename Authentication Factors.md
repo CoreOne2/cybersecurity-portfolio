@@ -26,3 +26,14 @@ Without MFA: The hacker types your username and password, logs straight into you
 With MFA: The hacker types your password. The website then prompts: "Enter the 6-digit code sent to your phone." Since the hacker doesn't physically have your phone, they are stopped dead in their tracks.
 
  ![MFA Diagram](./mfa.png)
+
+
+Common MFA Methods
+
+SMS / Voice Call
+
+Email
+
+Authenticator Apps (TOTP) / 6digits verification
+
+Hardware Keys (FIDO2 / YubiKey) : Physical USB/NFC devices you plug in or tap to authenticate.
