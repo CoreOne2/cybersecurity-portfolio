@@ -50,3 +50,15 @@ renice -n 10 -p 12345
 
 # View systemd service logs since last boot with live tailing
 journalctl -u nginx.service -b -f
+
+# List all active SSH connections with remote IP and logged-in user
+who -u | awk '{print $1, $5}'
+
+# Find files with SUID permission enabled (potential security risk)
+find / -perm -4000 -type f -ls 2>/dev/null
+
+# Block an IP address immediately using iptables
+iptables -A INPUT -s 192.168.1.100 -j DROP
+
+# Audit recent failed login attempts via SSH
+grep "Failed password" /var/log/auth.log | awk '{print $(NF-3)}' | sort | uniq -c | sort -nr
