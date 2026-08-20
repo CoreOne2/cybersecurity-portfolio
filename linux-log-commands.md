@@ -74,3 +74,15 @@ ipcs -a
 
 # Measure exact system time, user time, and memory overhead of a command
 /usr/bin/time -v tar -czf backup.tar.gz /var/www/html
+
+# Monitor kernel buffer ring logs in real-time (useful for USB/hardware events)
+dmesg -wH
+
+# List all PCI devices with their active kernel drivers
+lspci -k
+
+# Display detailed CPU architecture, core counts, and flags
+lscpu
+
+# Inspect SMART status and health pass/fail state for a storage disk
+smartctl -H /dev/sda
