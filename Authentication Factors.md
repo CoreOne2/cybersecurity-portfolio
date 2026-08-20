@@ -24,3 +24,5 @@ Imagine a hacker gets hold of your password through a data breach:
 Without MFA: The hacker types your username and password, logs straight into your account, and steals your data.
 
 With MFA: The hacker types your password. The website then prompts: "Enter the 6-digit code sent to your phone." Since the hacker doesn't physically have your phone, they are stopped dead in their tracks.
+
+ ![MFA Diagram](./mfa.png)
